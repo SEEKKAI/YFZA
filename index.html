@@ -1,0 +1,117 @@
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YFZA Agency - AI-Powered Weboplossingen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="YFZA Agency Logo">
+                YFZA <span>AGENCY</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Diensten</a></li>
+                <li><a href="#about">Over Ons</a></li>
+                <li><a href="#contact" class="cta-button nav-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <h1 id="hero-headline">De Toekomst van het Web, Aangedreven door AI</h1>
+                <p class="subtitle">Wij bouwen intelligente, converterende websites en landingspagina's die uw bedrijf laten groeien.</p>
+                <a href="#services" class="cta-button">Ontdek Onze Diensten</a>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Onze Diensten</h2>
+                <div class="services-grid">
+                    <div class="service-card animate-on-scroll">
+                        <img src="service-icon-1.png" alt="AI Website Icon" class="service-icon">
+                        <h3>AI-Ondersteunde Websites</h3>
+                        <p>Volledig functionele websites met geïntegreerde AI-mogelijkheden voor een gepersonaliseerde gebruikerservaring.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <img src="service-icon-2.png" alt="Landing Page Icon" class="service-icon">
+                        <h3>Intelligente Landingspagina's</h3>
+                        <p>Landingspagina's die leren en zich aanpassen om conversies te maximaliseren met behulp van AI-analyse.</p>
+                    </div>
+                    <div class="service-card animate-on-scroll">
+                        <img src="service-icon-3.png" alt="AI Integration Icon" class="service-icon">
+                        <h3>Aangepaste AI-Integraties</h3>
+                        <p>Integreer de kracht van AI in uw bestaande platformen en processen voor slimmere bedrijfsvoering.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container animate-on-scroll">
+                <h2 class="section-title">Over YFZA Agency</h2>
+                <p>YFZA Agency is een team van innovators en ontwikkelaars, gepassioneerd door het snijvlak van kunstmatige intelligentie en webdesign. Onze missie is om bedrijven te helpen hun volledige potentieel te ontsluiten met slimme, datagestuurde weboplossingen.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+             <div class="container animate-on-scroll">
+                <h2 class="section-title">Neem Contact Op</h2>
+                <p>Klaar om de volgende stap te zetten? Stuur ons een bericht of neem direct contact op.</p>
+                <div class="contact-buttons">
+                    <a href="mailto:contact@yfza.agency" class="cta-button">E-mail Ons</a>
+                    <a href="https://wa.me/32491555208" target="_blank" class="cta-button whatsapp-button">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Ons
+                    </a>
+                </div>
+                <p class="phone-number">Of bel ons: +32 491 55 52 08</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- AI Chatbot -->
+    <div id="chat-bubble">
+        <i data-feather="message-square"></i>
+    </div>
+    <div id="chat-widget">
+        <div id="chat-header">
+            <div>
+                <i data-feather="cpu" class="chat-header-icon"></i>
+                <h3>YFZA Assistent</h3>
+            </div>
+            <button id="chat-close">&times;</button>
+        </div>
+        <div id="chat-messages">
+            <!-- Messages will be injected here -->
+        </div>
+        <form id="chat-form">
+            <input type="text" id="chat-input" placeholder="Stel uw vraag..." autocomplete="off">
+            <button type="submit" aria-label="Verstuur bericht"><i data-feather="send"></i></button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 YFZA AGENCY. Alle rechten voorbehouden.</p>
+            <div class="social-links">
+                <a href="#"><i data-feather="twitter"></i></a>
+                <a href="#"><i data-feather="linkedin"></i></a>
+                <a href="#"><i data-feather="github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
